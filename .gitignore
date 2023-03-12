@@ -1,0 +1,25 @@
+# Node.js modules
+node_modules/
+
+# Environment variables
+.env
+
+# NPM lockfile
+package-lock.json
+
+# IDE files
+.vscode/
+.idea/
+*.code-workspace
+.gitignore
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Misc
+.DS_Store
+Thumbs.db
