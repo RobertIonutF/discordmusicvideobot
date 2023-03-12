@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "webpack"
   },
   "author": "",
   "license": "ISC",
@@ -17,5 +18,9 @@
     "libsodium-wrappers": "^0.7.11",
     "opusscript": "^0.0.8",
     "ytdl-core": "^4.11.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.0.1",
+    "webpack-node-externals": "^3.0.0"
   }
 }
